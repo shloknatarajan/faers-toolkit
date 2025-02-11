@@ -4,3 +4,4 @@
 *.journal
 .vscode/
 data-1/
+**/__pycache__/**
