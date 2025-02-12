@@ -1,5 +1,12 @@
 # FAERS Cohort Generation
-This repo is a fork of the [FAERS Toolkit](https://github.com/wizzl35/faers-toolkit). This contains some additional functionality/fixes for cohort generation
+This repo is a fork of the [FAERS Toolkit](https://github.com/wizzl35/faers-toolkit). This contains some additional functionality/fixes for cohort generation that will likely be moved to a new repo in the future.
+
+To get started download the [FAERS Data](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-latest-quarterly-data-files), add the relavent zip files to the data folder, and run the following command to parse the data into a sqlite database.
+```
+python3 parse.py
+```
+
+
 
 
 #FAERS Toolkit (Data Mining for Drug Safety)
